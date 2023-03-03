@@ -1,4 +1,4 @@
-# Working with Elastic Load Balancing
+# Working with Elastic Load Balancing(EC2)
 This lab introduces the concept of Elastic Load Balancing(ELB). In this lab you will use ElasticLoad Balancing to load balance traffic across multiple Amazon Elastic Compute Cloud(EC2)instances in a single Availability Zone. You will deploy a simple application onmultiple Amazon EC2 instances and observe load balancing by viewing the application inyour browser.
 
 First , you will launch a pair of instances , bootstrap them to install web servers andcontent , and then access the instances independently using Amazon EC2 DNS recordsNext , you will set up Elastic Load Balancing(ELB) , add your instances to the load balancer , andthen access the DNS record again to watch your requests load balance between serversFinally you will view Elastic Load Balancing(ELB) metrics in Amazon Cloudwatch
